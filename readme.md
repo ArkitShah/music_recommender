@@ -34,7 +34,7 @@ Here we are predicting the genre that user may like by taking the user's age and
 In this project, the Decision Tree algorithm is used to make predictions.
 It is already available in the scikit-learn library, so we don't need to write an algorithm manually. 
 
-In the music.csv file there is no data for a 21 year old male and a 22 year old female. Now accordin to our music.csv file a 21 year old male should like HipHop and 22 year old female would like Dance genre.Lets try to predict that now!
+In the music.csv file there is no data for a 21 year old male and a 22 year old female. Now accordin to our music.csv file a 21 year old male should like HipHop and 22 year old female would like Dance genre. Lets try to predict that now!
 
 
 	model = DecisionTreeClassifier()
@@ -133,7 +133,7 @@ For seeing it we need to make some changes in out code.
                      label = 'all', rounded = True,
                      filled = True)
 
-The code should look like [this](music-recommender-visualization.ipynb).
+The code shoulb look like [this](music-recommender-visualization.ipynb).
 
 Here on running this we get the output as a file with a **.dot** extension.
 We can open it in Visual Studio Code.
@@ -142,17 +142,17 @@ Then we need to install the extension for .dot files.
 
 After installing the extension we would see something like this 
 
-[picture](Image/1.png)
+![picture](Image/1.png)
 
 Click on the 3 dots on the top right corner
 
-[picture](Image/2.png)
+![picture](Image/2.png)
 
 Click on **'Open Preview to Side'** 
 
-[picture](Image/3.png)
+![picture](Image/3.png)
 
 You can now see how to model predicts everything!
 
-[picture](Image/4.png)
+![picture](Image/4.png)
  
