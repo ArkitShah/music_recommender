@@ -133,7 +133,7 @@ For seeing it we need to make some changes in out code.
                      label = 'all', rounded = True,
                      filled = True)
 
-The code shoulb look like [this](music-recommender-visualization.ipynb).
+The code should look like [this](music-recommender-visualization.ipynb).
 
 Here on running this we get the output as a file with a **.dot** extension.
 We can open it in Visual Studio Code.
