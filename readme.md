@@ -34,7 +34,7 @@ Here we are predicting the genre that user may like by taking the user's age and
 In this project, the Decision Tree algorithm is used to make predictions.
 It is already available in the scikit-learn library, so we don't need to write an algorithm manually. 
 
-In the music.csv file there is no data for a 21 year old male and a 22 year old female. So we will try to predict that using 
+In the music.csv file there is no data for a 21 year old male and a 22 year old female. Now accordin to our music.csv file a 21 year old male should like HipHop and 22 year old female would like Dance genre.Lets try to predict that now!
 
 
 	model = DecisionTreeClassifier()
