@@ -1,4 +1,4 @@
-# Music Recommender Project Using ML
+# Project : Music Recommender Using ML
 
 #### Here the following things will be discussed:
  - Creating a model that makes predictions
