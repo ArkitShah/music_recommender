@@ -1,10 +1,15 @@
 # Project : Music Recommender Using ML
 
-#### Here the following things will be discussed:
+### Here the following things will be discussed:
+
  - Creating a model that makes predictions
+
  - Measuring the accuracy of the model
+
  - Persisting the model
+
  - Visualizing how the predictions are made
+
 
 I have entered some data in the **music.csv** file. The data is just to show how to make predictions, It is not real data.
 
