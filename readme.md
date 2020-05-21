@@ -48,7 +48,7 @@ And we get the output as
 
 	array(['HipHop', 'Dance'], dtype=object)
 
-It should look something like [this](music-recommendation-prediction.ipynb)
+It should look something like [this](music-recommendation-prediction.ipynb).
 
 
 ## 2. Training and Measuring the accuracy of the model
@@ -77,7 +77,7 @@ For measuring the accuracy score we use the accuracy_score and pass 2 parameters
 	score = accuracy_score(y_test, predictions)
 	
 
-The code should look like [this](music-recommendation-accuracy.ipynb)
+The code should look like [this](music-recommendation-accuracy.ipynb).
 
 
 ## 3. Persisting the model
@@ -97,7 +97,7 @@ And we get the output
 
 If we go back we can see that a new file is created with the above name.
 
-The code looks something like [this](music-recommender-joblib.ipynb)
+The code looks something like [this](music-recommender-joblib.ipynb).
 
 Now if we want to make predictions we will use this file **music-recommender.joblib**.
 
@@ -113,7 +113,7 @@ We get the output
 	array(['Dance'], dtype=object)
 
 So we know that it works.
-The code should be looking like [this](music-recomender-joblib-load.ipynb)
+The code should be looking like [this](music-recomender-joblib-load.ipynb).
 
 
 ## 4. Visualizing how the predictions are made
@@ -132,6 +132,8 @@ For seeing it we need to make some changes in out code.
                      class_names = sorted(y.unique()),
                      label = 'all', rounded = True,
                      filled = True)
+
+The code shoulb look like [this](music-recommender-visualization.ipynb).
 
 Here on running this we get the output as a file with a **.dot** extension.
 We can open it in Visual Studio Code.
